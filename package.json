@@ -1,0 +1,14 @@
+{
+  "name": "mono-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "start:ui": "pnpm --filter restaurant-mgmt-admin dev",
+     "start": "pnpm --filter restaurant-mgmt-admin dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1"
+}
